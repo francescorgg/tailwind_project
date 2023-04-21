@@ -561,6 +561,10 @@ video {
   margin-top: 2.5rem;
 }
 
+.ml-10 {
+  margin-left: 2.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -689,7 +693,17 @@ video {
   color: rgb(242 100 25 / var(--tw-text-opacity));
 }
 
+@media (min-width: 480px) {
+  .sm\:mt-10 {
+    margin-top: 2.5rem;
+  }
+}
+
 @media (min-width: 768px) {
+  .md\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
   .md\:block {
     display: block;
   }
