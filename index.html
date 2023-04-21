@@ -20,7 +20,7 @@
         </div>
 
         <!-- Menu di navigazione -->
-        <div class="hidden md:flex space-x-10">
+        <div class="hidden space-x-10 md:flex">
           <a href="#" class="text-xl text-paletteRichBlack hover:text-paletteOrange">Listino</a>
           <a href="#" class="text-xl text-paletteRichBlack hover:text-paletteOrange">Prodotti</a>
           <a href="#" class="text-xl text-paletteRichBlack hover:text-paletteOrange">About Us</a>
@@ -29,7 +29,7 @@
         </div>
 
         <!-- Tasto -->
-        <a href="#" class="hidden md:block p-2 px-4 text-white bg-paletteOrange rounded-full baseline">Abbonati!</a>
+        <a href="#" class="hidden p-2 px-4 text-white bg-paletteOrange rounded-full baseline md:block">Abbonati!</a>
 
       </div>
     </nav>
@@ -37,7 +37,22 @@
 
   <!-- Sezione Header -->
   <section id="header">
-    
+    <div class="container flex flex-col-reverse items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0 md:flex-row">
+      <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+        <h1 class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left">
+          Lorem <span class="text-paletteOrange">ipsum dolor</span> sit, amet consectetur adipisicing elit.
+        </h1>
+        <p class="max-w-sm text-center text-paletteGrey md:text-left">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam fugiat rerum debitis recusandae eius consequuntur reiciendis voluptatibus odio?
+        </p>
+        <div class="flex justify-center md:justify-start">
+          <a href="#" class="p-2 px-4 text-white bg-paletteOrange rounded-full baseline">Get Start!</a>
+        </div>
+      </div>
+      <div class="md:w-1/2">
+        <img src="img/illustration-intro.svg" alt="graph">
+      </div>
+    </div>
   </section>
 
 
