@@ -14,6 +14,7 @@ module.exports = {
         // https://coolors.co/palettes/trending <---- link per palette dei colori
         paletteRichBlack: 'rgb(47, 72, 88)',
         paletteGrey: 'rgb(177, 167, 166)',
+        paletteLigthGrey: 'rgb(233, 236, 239)',
         paletteBlueMarine: 'rgb(51, 101, 138)',
         paletteCerulean: 'rgb(51, 101, 138)',
         paletteYellow: 'rgb(246, 174, 45)',
