@@ -30,7 +30,24 @@
         <!-- Tasto -->
         <a href="#" class="hidden p-2 px-4 text-white bg-paletteOrange rounded-full baseline md:block">Abbonati!</a>
 
+        <!-- Hamburger menu -->
+        <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
       </div>
+
+      <div class="md:hidden">
+        <div id="menu" class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:self-center left-6 right-6 drop-shadow-md">
+          <a href="#" class="text-xl text-paletteRichBlack hover:text-paletteOrange">Listino</a>
+          <a href="#" class="text-xl text-paletteRichBlack hover:text-paletteOrange">Prodotti</a>
+          <a href="#" class="text-xl text-paletteRichBlack hover:text-paletteOrange">About Us</a>
+          <a href="#" class="text-xl text-paletteRichBlack hover:text-paletteOrange">Contatti</a>
+          <a href="#" class="text-xl text-paletteRichBlack hover:text-paletteOrange">Comunity</a>
+        </div>
+      </div>
+
     </nav>
   </section>
 
@@ -216,5 +233,6 @@
     </div>
   </footer>
 
+  <script src="js/script.js"></script>
 </body>
 </html>
